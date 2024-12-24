@@ -1,3 +1,3 @@
 SignIn Details =
 "email" = "john@example.com"
-"Password" = "Password123"
+"Password" = "password123"
