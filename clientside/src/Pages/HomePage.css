@@ -1,0 +1,74 @@
+/* Container Styling */
+.p-4 {
+    padding: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #e91515;
+  }
+  
+  /* ReviewCard Styling */
+  .review-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+    padding: 16px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .review-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Text Styling */
+  .review-card h2 {
+    font-size: 1.25rem;
+    color: #e91515;
+  }
+  
+  .review-card p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Delete Button */
+  .review-card button {
+    background-color: #e63946;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .review-card button:hover {
+    background-color: #d62839;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .p-4 {
+      padding: 8px;
+    }
+  
+    .review-card {
+      padding: 12px;
+    }
+  
+    .review-card h3 {
+      font-size: 1rem;
+    }
+  
+    .review-card p {
+      font-size: 0.875rem;
+    }
+  
+    .review-card button {
+      padding: 6px 10px;
+    }
+  }
+  
